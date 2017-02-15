@@ -41,7 +41,7 @@ class DataView2 extends Component {
             <tr>
               <td>{entry.title}</td>
               <td>{entry.description}</td>
-              <td>{entry.url}</td>
+              <td><a href={entry.url}>{entry.url}</a></td>
             </tr>
           ))}
         </tbody>
